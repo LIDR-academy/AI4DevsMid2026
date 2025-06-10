@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  },
+  "prisma": {
+    "schema": "backend/prisma/schema.prisma"
+  }
+}
