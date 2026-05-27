@@ -1,0 +1,58 @@
+- generic [ref=e3]:
+  - navigation "Main navigation" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: LTI
+      - generic [ref=e7]: HR Management
+    - button "New Opening" [ref=e9] [cursor=pointer]:
+      - img [ref=e10]
+      - text: New Opening
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Dashboard" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img [ref=e15]
+          - text: Dashboard
+        - link "Positions" [ref=e20] [cursor=pointer]:
+          - /url: /positions
+          - img [ref=e22]
+          - text: Positions
+        - link "Applicants" [ref=e24] [cursor=pointer]:
+          - /url: /positions/1
+          - img [ref=e26]
+          - text: Applicants
+        - link "Interviews" [ref=e31] [cursor=pointer]:
+          - /url: /positions/1
+          - img [ref=e33]
+          - text: Interviews
+        - link "Teams" [ref=e35] [cursor=pointer]:
+          - /url: /positions/1
+          - img [ref=e37]
+          - text: Teams
+        - link "Analytics" [ref=e40] [cursor=pointer]:
+          - /url: /positions/1
+          - img [ref=e42]
+          - text: Analytics
+      - link "Settings" [ref=e46] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e48]
+        - text: Settings
+  - banner [ref=e51]:
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - img [ref=e54]
+        - textbox "Global search" [ref=e57]:
+          - /placeholder: Search...
+      - navigation "Section navigation" [ref=e58]:
+        - link "Dashboard" [ref=e59] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e60]: Recruitment
+    - generic [ref=e61]:
+      - link "Add Employee" [ref=e62] [cursor=pointer]:
+        - /url: /add-candidate
+      - generic [ref=e63]:
+        - button "Notifications" [ref=e64] [cursor=pointer]:
+          - img [ref=e65]
+        - button "Help" [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+      - generic [ref=e74]: U
+  - generic [ref=e77]: Failed to fetch

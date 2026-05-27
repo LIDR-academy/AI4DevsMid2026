@@ -1,0 +1,116 @@
+- generic [ref=e3]:
+  - navigation "Main navigation" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: LTI
+      - generic [ref=e7]: HR Management
+    - button "New Opening" [ref=e9] [cursor=pointer]:
+      - img [ref=e10]
+      - text: New Opening
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Dashboard" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img [ref=e15]
+          - text: Dashboard
+        - link "Positions" [ref=e20] [cursor=pointer]:
+          - /url: /positions
+          - img [ref=e22]
+          - text: Positions
+        - link "Applicants" [ref=e24] [cursor=pointer]:
+          - /url: /positions/1
+          - img [ref=e26]
+          - text: Applicants
+        - link "Interviews" [ref=e31] [cursor=pointer]:
+          - /url: /positions/1
+          - img [ref=e33]
+          - text: Interviews
+        - link "Teams" [ref=e35] [cursor=pointer]:
+          - /url: /positions/1
+          - img [ref=e37]
+          - text: Teams
+        - link "Analytics" [ref=e40] [cursor=pointer]:
+          - /url: /positions/1
+          - img [ref=e42]
+          - text: Analytics
+      - link "Settings" [ref=e46] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e48]
+        - text: Settings
+  - banner [ref=e51]:
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - img [ref=e54]
+        - textbox "Global search" [ref=e57]:
+          - /placeholder: Search...
+      - navigation "Section navigation" [ref=e58]:
+        - link "Dashboard" [ref=e59] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e60]: Recruitment
+    - generic [ref=e61]:
+      - link "Add Employee" [ref=e62] [cursor=pointer]:
+        - /url: /add-candidate
+      - generic [ref=e63]:
+        - button "Notifications" [ref=e64] [cursor=pointer]:
+          - img [ref=e65]
+        - button "Help" [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+      - generic [ref=e74]: U
+  - generic [ref=e77]:
+    - navigation "Breadcrumb" [ref=e78]:
+      - generic [ref=e79]:
+        - link "HOME" [ref=e80] [cursor=pointer]:
+          - /url: /
+        - text: ">"
+        - link "POSITIONS" [ref=e81] [cursor=pointer]:
+          - /url: /positions
+        - text: "> Senior Full-Stack Engineer"
+    - generic [ref=e82]:
+      - button "Go back to positions" [ref=e83] [cursor=pointer]: ← BACK
+      - heading "Senior Full-Stack Engineer" [level=1] [ref=e84]
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - textbox "Search candidates" [ref=e88]:
+          - /placeholder: SEARCH...
+        - button "Filter candidates" [ref=e89] [cursor=pointer]: FILTER
+      - button "Add new candidate" [ref=e90] [cursor=pointer]: + ADD CANDIDATE
+    - region "Kanban board" [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - columnheader "Initial Screening column, 1 candidates" [ref=e94]:
+            - generic [ref=e95]: Initial Screening
+            - generic [ref=e96]: "1"
+          - list "Initial Screening candidates" [ref=e97]:
+            - 'listitem "Candidate: John Doe, score 5 out of 5" [ref=e98]':
+              - generic [ref=e99]: John Doe
+              - generic "5 out of 5 stars" [ref=e101]:
+                - img [ref=e102]
+                - img [ref=e104]
+                - img [ref=e106]
+                - img [ref=e108]
+                - img [ref=e110]
+        - generic [ref=e112]:
+          - columnheader "Technical Interview column, 1 candidates" [ref=e113]:
+            - generic [ref=e114]: Technical Interview
+            - generic [ref=e115]: "1"
+          - list "Technical Interview candidates" [ref=e116]:
+            - 'listitem "Candidate: Jane Smith, score 4 out of 5" [ref=e117]':
+              - generic [ref=e118]: Jane Smith
+              - generic "4 out of 5 stars" [ref=e120]:
+                - img [ref=e121]
+                - img [ref=e123]
+                - img [ref=e125]
+                - img [ref=e127]
+                - img [ref=e129]
+        - generic [ref=e131]:
+          - columnheader "Manager Interview column, 1 candidates" [ref=e132]:
+            - generic [ref=e133]: Manager Interview
+            - generic [ref=e134]: "1"
+          - list "Manager Interview candidates" [ref=e135]:
+            - 'listitem "Candidate: Carlos García, score 0 out of 5" [ref=e136]':
+              - generic [ref=e137]: Carlos García
+              - generic "0 out of 5 stars" [ref=e139]:
+                - img [ref=e140]
+                - img [ref=e142]
+                - img [ref=e144]
+                - img [ref=e146]
+                - img [ref=e148]

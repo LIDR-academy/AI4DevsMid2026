@@ -1,0 +1,110 @@
+- generic [ref=e118]:
+  - navigation "Main navigation" [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e121]: LTI
+      - generic [ref=e122]: HR Management
+    - button "New Opening" [ref=e124] [cursor=pointer]:
+      - img [ref=e125]
+      - text: New Opening
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - link "Dashboard" [ref=e128] [cursor=pointer]:
+          - /url: /
+          - img [ref=e130]
+          - text: Dashboard
+        - link "Positions" [ref=e135] [cursor=pointer]:
+          - /url: /positions
+          - img [ref=e137]
+          - text: Positions
+        - link "Applicants" [ref=e139] [cursor=pointer]:
+          - /url: /positions
+          - img [ref=e141]
+          - text: Applicants
+        - link "Interviews" [ref=e146] [cursor=pointer]:
+          - /url: /positions
+          - img [ref=e148]
+          - text: Interviews
+        - link "Teams" [ref=e150] [cursor=pointer]:
+          - /url: /positions
+          - img [ref=e152]
+          - text: Teams
+        - link "Analytics" [ref=e155] [cursor=pointer]:
+          - /url: /positions
+          - img [ref=e157]
+          - text: Analytics
+      - link "Settings" [ref=e161] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e163]
+        - text: Settings
+  - banner [ref=e166]:
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - img [ref=e169]
+        - textbox "Global search" [ref=e172]:
+          - /placeholder: Search...
+      - navigation "Section navigation" [ref=e173]:
+        - link "Dashboard" [ref=e174] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e175]: Recruitment
+    - generic [ref=e176]:
+      - link "Add Employee" [ref=e177] [cursor=pointer]:
+        - /url: /add-candidate
+      - generic [ref=e178]:
+        - button "Notifications" [ref=e179] [cursor=pointer]:
+          - img [ref=e180]
+        - button "Help" [ref=e183] [cursor=pointer]:
+          - img [ref=e184]
+      - generic [ref=e189]: U
+  - generic [ref=e191]:
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - generic [ref=e194]: Home / Positions
+        - heading "Positions" [level=1] [ref=e195]
+      - button "New position" [ref=e196] [cursor=pointer]:
+        - img [ref=e197]
+        - text: New position
+    - generic [ref=e198]:
+      - generic [ref=e199]:
+        - generic [ref=e200]: OPEN ROLES
+        - generic [ref=e202]: "0"
+      - generic [ref=e203]:
+        - generic [ref=e204]: TOTAL APPLICANTS
+        - generic [ref=e206]: –
+      - generic [ref=e207]:
+        - generic [ref=e208]: INTERVIEWS THIS WEEK
+        - generic [ref=e210]: –
+      - generic [ref=e211]:
+        - generic [ref=e212]: TIME-TO-FILL (AVG)
+        - generic [ref=e213]:
+          - generic [ref=e214]: –
+          - generic [ref=e215]: days
+    - generic [ref=e216]:
+      - generic [ref=e217]: Search roles
+      - textbox "Search roles" [ref=e221]:
+        - /placeholder: Search roles...
+      - generic [ref=e222]: Department
+      - combobox "Department" [ref=e223] [cursor=pointer]:
+        - 'option "Department: All" [selected]'
+      - generic [ref=e224]: Location
+      - combobox "Location" [ref=e225] [cursor=pointer]:
+        - 'option "Location: All" [selected]'
+      - generic [ref=e226]: Status
+      - combobox "Status" [ref=e227] [cursor=pointer]:
+        - 'option "Status: All"'
+        - 'option "Status: Open" [selected]'
+        - 'option "Status: Paused"'
+        - 'option "Status: Closed"'
+        - 'option "Status: Draft"'
+    - generic [ref=e228]: Failed to fetch
+    - table [ref=e230]:
+      - rowgroup [ref=e231]:
+        - row "ROLE DEPT / LOCATION HIRING MANAGER PIPELINE STATUS ACTIONS" [ref=e232]:
+          - columnheader "ROLE" [ref=e233]
+          - columnheader "DEPT / LOCATION" [ref=e234]
+          - columnheader "HIRING MANAGER" [ref=e235]
+          - columnheader "PIPELINE" [ref=e236]
+          - columnheader "STATUS" [ref=e237]
+          - columnheader "ACTIONS" [ref=e238]
+      - rowgroup [ref=e239]:
+        - row "No positions found." [ref=e240]:
+          - cell "No positions found." [ref=e241]

@@ -1,0 +1,82 @@
+- generic [ref=e3]:
+  - navigation "Main navigation" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: LTI
+      - generic [ref=e7]: HR Management
+    - button "New Opening" [ref=e9] [cursor=pointer]:
+      - img [ref=e10]
+      - text: New Opening
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Dashboard" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img [ref=e15]
+          - text: Dashboard
+        - link "Positions" [ref=e20] [cursor=pointer]:
+          - /url: /positions
+          - img [ref=e22]
+          - text: Positions
+        - link "Applicants" [ref=e24] [cursor=pointer]:
+          - /url: /add-candidate
+          - img [ref=e26]
+          - text: Applicants
+        - link "Interviews" [ref=e31] [cursor=pointer]:
+          - /url: /add-candidate
+          - img [ref=e33]
+          - text: Interviews
+        - link "Teams" [ref=e35] [cursor=pointer]:
+          - /url: /add-candidate
+          - img [ref=e37]
+          - text: Teams
+        - link "Analytics" [ref=e40] [cursor=pointer]:
+          - /url: /add-candidate
+          - img [ref=e42]
+          - text: Analytics
+      - link "Settings" [ref=e46] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e48]
+        - text: Settings
+  - banner [ref=e51]:
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - img [ref=e54]
+        - textbox "Global search" [ref=e57]:
+          - /placeholder: Search...
+      - navigation "Section navigation" [ref=e58]:
+        - link "Dashboard" [ref=e59] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e60]: Recruitment
+    - generic [ref=e61]:
+      - link "Add Employee" [ref=e62] [cursor=pointer]:
+        - /url: /add-candidate
+      - generic [ref=e63]:
+        - button "Notifications" [ref=e64] [cursor=pointer]:
+          - img [ref=e65]
+        - button "Help" [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+      - generic [ref=e74]: U
+  - generic [ref=e76]:
+    - heading "Agregar Candidato" [level=1] [ref=e77]
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]: Nombre
+          - textbox [ref=e83]
+          - generic [ref=e84]: Apellido
+          - textbox [ref=e85]
+          - generic [ref=e86]: Correo Electrónico
+          - textbox [ref=e87]
+          - generic [ref=e88]: Teléfono
+          - textbox [ref=e89]
+          - generic [ref=e90]: Dirección
+          - textbox [ref=e91]
+        - generic [ref=e92]:
+          - generic [ref=e93]: CV
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - button "File" [ref=e96]
+              - button "Subir Archivo" [ref=e97] [cursor=pointer]
+            - paragraph [ref=e98]: "Selected file:"
+          - button "Añadir Educación" [ref=e100] [cursor=pointer]
+          - button "Añadir Experiencia Laboral" [ref=e102] [cursor=pointer]
+      - button "Enviar" [ref=e103] [cursor=pointer]

@@ -1,0 +1,2 @@
+[      70ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/static/js/bundle.js:42249
+[    8162ms] [WARNING] Cannot persist stage update for "John Doe": candidate ID not available from API @ http://localhost:3000/static/js/bundle.js:60269

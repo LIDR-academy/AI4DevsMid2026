@@ -1,0 +1,125 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: LTI
+      - button "DASHBOARD" [ref=e7] [cursor=pointer]
+  - generic [ref=e9]:
+    - heading "Recruitment Management Built for Speed" [level=1] [ref=e10]:
+      - text: Recruitment
+      - text: Management
+      - text: Built for Speed
+    - paragraph [ref=e11]: LTI is the applicant tracking system built on brutalist principles. No fluff. No confusion. Just a transparent, efficient platform for managing your hiring pipeline.
+    - generic [ref=e12]:
+      - button "GET STARTED" [ref=e13] [cursor=pointer]
+      - button "LEARN MORE" [ref=e14] [cursor=pointer]
+  - generic [ref=e16]:
+    - heading "Core Features" [level=2] [ref=e17]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: ▬
+        - heading "Kanban Pipeline" [level=3] [ref=e21]
+        - paragraph [ref=e22]: Organize candidates through customizable interview stages. Drag, drop, and move seamlessly.
+      - generic [ref=e23]:
+        - generic [ref=e24]: ▬
+        - heading "Smart Candidate Profiles" [level=3] [ref=e25]
+        - paragraph [ref=e26]: Complete candidate data with education, work experience, CV uploads, and interview history.
+      - generic [ref=e27]:
+        - generic [ref=e28]: ▬
+        - heading "Interview Flow Management" [level=3] [ref=e29]
+        - paragraph [ref=e30]: Configure position-specific interview processes with multiple stages and interview types.
+      - generic [ref=e31]:
+        - generic [ref=e32]: ▬
+        - heading "Real-time Position Tracking" [level=3] [ref=e33]
+        - paragraph [ref=e34]: View all positions, candidate counts, and pipeline progress at a glance.
+  - generic [ref=e36]:
+    - heading "Why LTI" [level=2] [ref=e37]
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]: ■
+        - paragraph [ref=e41]: Faster hiring cycles with organized pipelines
+      - generic [ref=e42]:
+        - generic [ref=e43]: ■
+        - paragraph [ref=e44]: Never lose candidate information—centralized and searchable
+      - generic [ref=e45]:
+        - generic [ref=e46]: ■
+        - paragraph [ref=e47]: Clear visibility into interview stages and progress
+      - generic [ref=e48]:
+        - generic [ref=e49]: ■
+        - paragraph [ref=e50]: Customizable workflows for every position and team
+  - generic [ref=e52]:
+    - heading "How It Works" [level=2] [ref=e53]
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: "01"
+        - heading "Create Positions" [level=3] [ref=e57]
+        - paragraph [ref=e58]: Define interview flows and stages for each role
+      - generic [ref=e59]:
+        - generic [ref=e60]: "02"
+        - heading "Add Candidates" [level=3] [ref=e61]
+        - paragraph [ref=e62]: Upload CVs and candidate information
+      - generic [ref=e63]:
+        - generic [ref=e64]: "03"
+        - heading "Manage Pipeline" [level=3] [ref=e65]
+        - paragraph [ref=e66]: Move candidates through interview stages
+      - generic [ref=e67]:
+        - generic [ref=e68]: "04"
+        - heading "Track Progress" [level=3] [ref=e69]
+        - paragraph [ref=e70]: Monitor hiring metrics and timelines
+  - generic [ref=e72]:
+    - heading "Ready to Transform Your Hiring?" [level=2] [ref=e73]
+    - paragraph [ref=e74]: LTI brings clarity and efficiency to your recruitment process. No distractions. No confusion. Just results.
+    - button "START USING LTI TODAY" [ref=e75] [cursor=pointer]
+  - contentinfo [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - heading "Product" [level=3] [ref=e80]
+          - list [ref=e81]:
+            - listitem [ref=e82]:
+              - link "Features" [ref=e83] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e84]:
+              - link "Pricing" [ref=e85] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e86]:
+              - link "Documentation" [ref=e87] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e88]:
+          - heading "Company" [level=3] [ref=e89]
+          - list [ref=e90]:
+            - listitem [ref=e91]:
+              - link "About" [ref=e92] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e93]:
+              - link "Blog" [ref=e94] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e95]:
+              - link "Contact" [ref=e96] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e97]:
+          - heading "Legal" [level=3] [ref=e98]
+          - list [ref=e99]:
+            - listitem [ref=e100]:
+              - link "Privacy" [ref=e101] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e102]:
+              - link "Terms" [ref=e103] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e104]:
+              - link "Security" [ref=e105] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e106]:
+          - heading "Follow" [level=3] [ref=e107]
+          - list [ref=e108]:
+            - listitem [ref=e109]:
+              - link "Twitter" [ref=e110] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e111]:
+              - link "LinkedIn" [ref=e112] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e113]:
+              - link "GitHub" [ref=e114] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e115]:
+        - paragraph [ref=e116]: © 2026 LTI. All rights reserved.
+        - paragraph [ref=e117]: Built with precision.
